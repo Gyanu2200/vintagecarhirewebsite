@@ -1,0 +1,47 @@
+body{
+    /* background-color: rgb(87, 80, 80); */
+    margin: 0;
+    padding: 0;
+    background: rgb(201, 161, 161);
+    
+    
+}
+
+.enquirestyle{
+    background-color:rgb(241, 234, 241) ;
+}
+
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.contactstyle{
+    margin-left: 5px;
+    text-align: justify;
+}
+
+.navbar-brand{
+    font-family: fantasy;
+
+}
+
+h2 {
+    font-family: serif;
+    text-align: center;
+    font: size 10rem;;
+    color: rgb(26, 1, 26);
+}
+
+.carin1row{
+    display:inline-flexbox;
+}
+
+.backtotop{
+    text-align: right;
+}
+
+.collapse ul{
+    text-align: right;
+}
+
