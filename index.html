@@ -128,12 +128,19 @@
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Choose a car</label>
-              <input name="Choose a car" type="text" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Comments</label>
-                <input name="Comments" type="text" class="form-control" id="exampleInputPassword1">
-              </div>
+                <select class="form-select" aria-label="Default select car">
+                <option selected>.....</option>
+                <option value="1">Car1</option>
+                <option value="2">Car2</option>
+                <option value="3">Car3</option>
+                <option value="3">Car4</option>
+              </select>
+
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Comments:</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              <br>
             
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>

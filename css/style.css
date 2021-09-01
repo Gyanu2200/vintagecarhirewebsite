@@ -42,6 +42,14 @@ h2 {
 }
 
 .collapse ul{
+    text-align: center;
+}
+
+.nav-item li{
+    text-align: right;
+}
+
+.container ul{
     text-align: right;
 }
 
